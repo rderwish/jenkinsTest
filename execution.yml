@@ -1,11 +1,2 @@
-execution:
-- concurrency: 100
-  hold-for: 60s
-  scenario: sample
-
-scenarios:
-  sample:
-    timeout: 500ms
-    keepalive: true
-    requests:
-    - http://blazedemo.com/
+request:
+- http://blazedemo.com/
